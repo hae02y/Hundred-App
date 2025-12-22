@@ -1,0 +1,15 @@
+{
+  "appKey": "discount-calculator-01",
+  "title": "할인 계산기",
+  "description": "할인 후 가격을 빠르게 계산하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["할인", "가격", "쇼핑", "세일"],
+  "theme": {
+    "primary": "#9c27b0",
+    "background": "#f3e5f5",
+    "accent": "#ba68c8",
+    "text": "#4a148c"
+  }
+}
+

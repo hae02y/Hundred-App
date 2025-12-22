@@ -1,0 +1,326 @@
+{
+  "appKey": "roulette-01",
+  "title": "오늘의 점심 메뉴",
+  "description": "점심 메뉴를 랜덤으로 선택해드립니다!",
+  "category": "food",
+  "appType": "roulette",
+  "tags": ["점심", "메뉴", "음식", "랜덤", "선택"],
+  "theme": {
+    "primary": "#3b82f6",
+    "background": "#f0f9ff",
+    "accent": "#60a5fa",
+    "text": "#1e293b"
+  },
+  "items": [
+    {
+      "id": "kimchi-jjigae",
+      "label": "김치찌개",
+      "weight": 3,
+      "description": "얼큰한 김치찌개"
+    },
+    {
+      "id": "doenjang-jjigae",
+      "label": "된장찌개",
+      "weight": 3,
+      "description": "구수한 된장찌개"
+    },
+    {
+      "id": "bibimbap",
+      "label": "비빔밥",
+      "weight": 2,
+      "description": "영양만점 비빔밥"
+    },
+    {
+      "id": "bulgogi",
+      "label": "불고기",
+      "weight": 2,
+      "description": "달콤한 불고기"
+    },
+    {
+      "id": "galbi",
+      "label": "갈비",
+      "weight": 1,
+      "description": "부드러운 갈비"
+    },
+    {
+      "id": "samgyeopsal",
+      "label": "삼겹살",
+      "weight": 2,
+      "description": "고소한 삼겹살"
+    },
+    {
+      "id": "jajangmyeon",
+      "label": "짜장면",
+      "weight": 3,
+      "description": "달콤한 짜장면"
+    },
+    {
+      "id": "jjamppong",
+      "label": "짬뽕",
+      "weight": 2,
+      "description": "얼큰한 짬뽕"
+    },
+    {
+      "id": "tangsuyuk",
+      "label": "탕수육",
+      "weight": 2,
+      "description": "바삭한 탕수육"
+    },
+    {
+      "id": "gonggibap",
+      "label": "공기밥",
+      "weight": 1,
+      "description": "간단한 공기밥"
+    },
+    {
+      "id": "ramen",
+      "label": "라멘",
+      "weight": 3,
+      "description": "진한 국물의 라멘"
+    },
+    {
+      "id": "udon",
+      "label": "우동",
+      "weight": 2,
+      "description": "시원한 우동"
+    },
+    {
+      "id": "sushi",
+      "label": "초밥",
+      "weight": 2,
+      "description": "신선한 초밥"
+    },
+    {
+      "id": "donkatsu",
+      "label": "돈까스",
+      "weight": 2,
+      "description": "바삭한 돈까스"
+    },
+    {
+      "id": "katsudon",
+      "label": "가츠동",
+      "weight": 2,
+      "description": "부드러운 가츠동"
+    },
+    {
+      "id": "pasta",
+      "label": "파스타",
+      "weight": 2,
+      "description": "알덴테 파스타"
+    },
+    {
+      "id": "pizza",
+      "label": "피자",
+      "weight": 2,
+      "description": "치즈가 가득한 피자"
+    },
+    {
+      "id": "steak",
+      "label": "스테이크",
+      "weight": 1,
+      "description": "부드러운 스테이크"
+    },
+    {
+      "id": "burger",
+      "label": "햄버거",
+      "weight": 2,
+      "description": "두툼한 햄버거"
+    },
+    {
+      "id": "chicken",
+      "label": "치킨",
+      "weight": 3,
+      "description": "바삭한 치킨"
+    },
+    {
+      "id": "salad",
+      "label": "샐러드",
+      "weight": 1,
+      "description": "신선한 샐러드"
+    },
+    {
+      "id": "sandwich",
+      "label": "샌드위치",
+      "weight": 2,
+      "description": "든든한 샌드위치"
+    },
+    {
+      "id": "brunch",
+      "label": "브런치",
+      "weight": 1,
+      "description": "여유로운 브런치"
+    },
+    {
+      "id": "gimbap",
+      "label": "김밥",
+      "weight": 2,
+      "description": "간단한 김밥"
+    },
+    {
+      "id": "tteokbokki",
+      "label": "떡볶이",
+      "weight": 2,
+      "description": "달콤한 떡볶이"
+    },
+    {
+      "id": "sundae",
+      "label": "순대",
+      "weight": 1,
+      "description": "고소한 순대"
+    },
+    {
+      "id": "odeng",
+      "label": "오뎅",
+      "weight": 1,
+      "description": "시원한 오뎅"
+    },
+    {
+      "id": "mandu",
+      "label": "만두",
+      "weight": 2,
+      "description": "쫄깃한 만두"
+    },
+    {
+      "id": "naengmyeon",
+      "label": "냉면",
+      "weight": 2,
+      "description": "시원한 냉면"
+    },
+    {
+      "id": "bossam",
+      "label": "보쌈",
+      "weight": 1,
+      "description": "고소한 보쌈"
+    },
+    {
+      "id": "jokbal",
+      "label": "족발",
+      "weight": 1,
+      "description": "쫄깃한 족발"
+    },
+    {
+      "id": "pajeon",
+      "label": "파전",
+      "weight": 1,
+      "description": "바삭한 파전"
+    },
+    {
+      "id": "kimchi-jeon",
+      "label": "김치전",
+      "weight": 1,
+      "description": "얼큰한 김치전"
+    },
+    {
+      "id": "soup",
+      "label": "국밥",
+      "weight": 2,
+      "description": "든든한 국밥"
+    },
+    {
+      "id": "seolleongtang",
+      "label": "설렁탕",
+      "weight": 1,
+      "description": "구수한 설렁탕"
+    },
+    {
+      "id": "galbitang",
+      "label": "갈비탕",
+      "weight": 1,
+      "description": "진한 갈비탕"
+    },
+    {
+      "id": "yukgaejang",
+      "label": "육개장",
+      "weight": 2,
+      "description": "얼큰한 육개장"
+    },
+    {
+      "id": "gamjatang",
+      "label": "감자탕",
+      "weight": 1,
+      "description": "얼큰한 감자탕"
+    },
+    {
+      "id": "budae-jjigae",
+      "label": "부대찌개",
+      "weight": 2,
+      "description": "든든한 부대찌개"
+    },
+    {
+      "id": "soondubu",
+      "label": "순두부찌개",
+      "weight": 2,
+      "description": "부드러운 순두부찌개"
+    },
+    {
+      "id": "jjambbong",
+      "label": "짬뽕밥",
+      "weight": 1,
+      "description": "얼큰한 짬뽕밥"
+    },
+    {
+      "id": "yangjangpi",
+      "label": "양장피",
+      "weight": 1,
+      "description": "고급스러운 양장피"
+    },
+    {
+      "id": "sweet-sour-pork",
+      "label": "깐풍기",
+      "weight": 1,
+      "description": "달콤한 깐풍기"
+    },
+    {
+      "id": "mapo-tofu",
+      "label": "마파두부",
+      "weight": 1,
+      "description": "얼큰한 마파두부"
+    },
+    {
+      "id": "kungpao",
+      "label": "궁보계정",
+      "weight": 1,
+      "description": "매콤한 궁보계정"
+    },
+    {
+      "id": "teriyaki",
+      "label": "데리야끼",
+      "weight": 1,
+      "description": "달콤한 데리야끼"
+    },
+    {
+      "id": "yakitori",
+      "label": "야키토리",
+      "weight": 1,
+      "description": "고소한 야키토리"
+    },
+    {
+      "id": "okonomiyaki",
+      "label": "오코노미야키",
+      "weight": 1,
+      "description": "부드러운 오코노미야키"
+    },
+    {
+      "id": "takoyaki",
+      "label": "타코야키",
+      "weight": 1,
+      "description": "쫄깃한 타코야키"
+    },
+    {
+      "id": "curry",
+      "label": "카레",
+      "weight": 2,
+      "description": "향긋한 카레"
+    },
+    {
+      "id": "risotto",
+      "label": "리조또",
+      "weight": 1,
+      "description": "부드러운 리조또"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 3,
+    "onePerDay": false
+  }
+}

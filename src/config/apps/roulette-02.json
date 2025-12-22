@@ -1,0 +1,332 @@
+{
+  "appKey": "roulette-02",
+  "title": "주말 데이트 코스",
+  "description": "주말에 갈 데이트 장소를 추천해드립니다!",
+  "category": "date",
+  "appType": "roulette",
+  "tags": ["데이트", "주말", "코스", "장소", "추천"],
+  "theme": {
+    "primary": "#ec4899",
+    "background": "#fdf2f8",
+    "accent": "#f472b6",
+    "text": "#831843"
+  },
+  "items": [
+    {
+      "id": "cafe-tour",
+      "label": "카페 투어",
+      "weight": 3,
+      "description": "예쁜 카페에서 여유롭게"
+    },
+    {
+      "id": "park-walk",
+      "label": "공원 산책",
+      "weight": 3,
+      "description": "자연 속에서 힐링하기"
+    },
+    {
+      "id": "movie",
+      "label": "영화 관람",
+      "weight": 3,
+      "description": "최신 영화 함께 보기"
+    },
+    {
+      "id": "exhibition",
+      "label": "전시회",
+      "weight": 2,
+      "description": "미술관, 박물관 탐방"
+    },
+    {
+      "id": "restaurant",
+      "label": "맛집 탐방",
+      "weight": 4,
+      "description": "유명 맛집에서 식사하기"
+    },
+    {
+      "id": "activity",
+      "label": "액티비티",
+      "weight": 2,
+      "description": "볼링, 탁구, 보드게임 등"
+    },
+    {
+      "id": "shopping",
+      "label": "쇼핑",
+      "weight": 2,
+      "description": "쇼핑몰, 시장 구경"
+    },
+    {
+      "id": "concert",
+      "label": "공연/콘서트",
+      "weight": 2,
+      "description": "라이브 공연 즐기기"
+    },
+    {
+      "id": "beach",
+      "label": "해변",
+      "weight": 2,
+      "description": "바다에서 힐링하기"
+    },
+    {
+      "id": "mountain",
+      "label": "등산",
+      "weight": 1,
+      "description": "산에서 자연 즐기기"
+    },
+    {
+      "id": "zoo",
+      "label": "동물원",
+      "weight": 2,
+      "description": "귀여운 동물들 보기"
+    },
+    {
+      "id": "aquarium",
+      "label": "아쿠아리움",
+      "weight": 2,
+      "description": "바다 생물 관찰"
+    },
+    {
+      "id": "theme-park",
+      "label": "테마파크",
+      "weight": 2,
+      "description": "재미있는 놀이기구 타기"
+    },
+    {
+      "id": "picnic",
+      "label": "피크닉",
+      "weight": 2,
+      "description": "야외에서 도시락 먹기"
+    },
+    {
+      "id": "camping",
+      "label": "캠핑",
+      "weight": 1,
+      "description": "자연 속에서 캠핑하기"
+    },
+    {
+      "id": "hot-spring",
+      "label": "온천",
+      "weight": 1,
+      "description": "따뜻한 온천에서 휴식"
+    },
+    {
+      "id": "spa",
+      "label": "스파",
+      "weight": 1,
+      "description": "편안한 스파에서 힐링"
+    },
+    {
+      "id": "karaoke",
+      "label": "노래방",
+      "weight": 2,
+      "description": "함께 노래 부르기"
+    },
+    {
+      "id": "bowling",
+      "label": "볼링",
+      "weight": 2,
+      "description": "볼링으로 운동하기"
+    },
+    {
+      "id": "billiards",
+      "label": "당구",
+      "weight": 1,
+      "description": "당구로 실력 겨루기"
+    },
+    {
+      "id": "arcade",
+      "label": "오락실",
+      "weight": 2,
+      "description": "게임으로 재미있게"
+    },
+    {
+      "id": "board-game",
+      "label": "보드게임카페",
+      "weight": 2,
+      "description": "다양한 보드게임 즐기기"
+    },
+    {
+      "id": "escape-room",
+      "label": "방탈출",
+      "weight": 2,
+      "description": "두뇌 게임으로 협동하기"
+    },
+    {
+      "id": "vr-cafe",
+      "label": "VR카페",
+      "weight": 1,
+      "description": "가상현실 체험하기"
+    },
+    {
+      "id": "library",
+      "label": "도서관",
+      "weight": 1,
+      "description": "조용히 책 읽기"
+    },
+    {
+      "id": "bookstore",
+      "label": "서점",
+      "weight": 2,
+      "description": "책 고르며 시간 보내기"
+    },
+    {
+      "id": "art-gallery",
+      "label": "갤러리",
+      "weight": 2,
+      "description": "예술 작품 감상하기"
+    },
+    {
+      "id": "museum",
+      "label": "박물관",
+      "weight": 1,
+      "description": "역사와 문화 배우기"
+    },
+    {
+      "id": "planetarium",
+      "label": "천문대",
+      "weight": 1,
+      "description": "별과 우주 관찰하기"
+    },
+    {
+      "id": "observatory",
+      "label": "전망대",
+      "weight": 2,
+      "description": "높은 곳에서 경치 보기"
+    },
+    {
+      "id": "hanok-village",
+      "label": "한옥마을",
+      "weight": 1,
+      "description": "전통 건축 감상하기"
+    },
+    {
+      "id": "traditional-market",
+      "label": "전통시장",
+      "weight": 2,
+      "description": "시장에서 먹거리 탐방"
+    },
+    {
+      "id": "night-market",
+      "label": "야시장",
+      "weight": 2,
+      "description": "밤에 열리는 시장 구경"
+    },
+    {
+      "id": "street-food",
+      "label": "먹거리거리",
+      "weight": 3,
+      "description": "다양한 길거리 음식 즐기기"
+    },
+    {
+      "id": "rooftop-bar",
+      "label": "루프탑 바",
+      "weight": 2,
+      "description": "옥상에서 분위기 즐기기"
+    },
+    {
+      "id": "jazz-bar",
+      "label": "재즈바",
+      "weight": 1,
+      "description": "재즈 음악과 함께"
+    },
+    {
+      "id": "live-music",
+      "label": "라이브카페",
+      "weight": 2,
+      "description": "라이브 음악 감상하기"
+    },
+    {
+      "id": "comedy-show",
+      "label": "코미디쇼",
+      "weight": 1,
+      "description": "웃음으로 스트레스 풀기"
+    },
+    {
+      "id": "musical",
+      "label": "뮤지컬",
+      "weight": 1,
+      "description": "뮤지컬로 감동받기"
+    },
+    {
+      "id": "opera",
+      "label": "오페라",
+      "weight": 1,
+      "description": "고급스러운 오페라 감상"
+    },
+    {
+      "id": "ballet",
+      "label": "발레",
+      "weight": 1,
+      "description": "우아한 발레 공연"
+    },
+    {
+      "id": "sports-game",
+      "label": "스포츠 경기 관람",
+      "weight": 1,
+      "description": "야구, 축구 등 경기 보기"
+    },
+    {
+      "id": "ice-skating",
+      "label": "아이스링크",
+      "weight": 1,
+      "description": "빙판에서 스케이트 타기"
+    },
+    {
+      "id": "swimming",
+      "label": "수영장",
+      "weight": 1,
+      "description": "물에서 시원하게"
+    },
+    {
+      "id": "bike-ride",
+      "label": "자전거 타기",
+      "weight": 2,
+      "description": "자전거로 둘러보기"
+    },
+    {
+      "id": "hiking",
+      "label": "트레킹",
+      "weight": 1,
+      "description": "산책로 따라 걷기"
+    },
+    {
+      "id": "photography",
+      "label": "사진 찍기",
+      "weight": 2,
+      "description": "예쁜 곳에서 사진 촬영"
+    },
+    {
+      "id": "cooking-class",
+      "label": "요리 클래스",
+      "weight": 1,
+      "description": "함께 요리 배우기"
+    },
+    {
+      "id": "pottery",
+      "label": "도예 체험",
+      "weight": 1,
+      "description": "도자기 만들기"
+    },
+    {
+      "id": "flower-arrangement",
+      "label": "꽃꽂이",
+      "weight": 1,
+      "description": "예쁜 꽃으로 꾸미기"
+    },
+    {
+      "id": "wine-tasting",
+      "label": "와인 테이스팅",
+      "weight": 1,
+      "description": "다양한 와인 맛보기"
+    },
+    {
+      "id": "brewery-tour",
+      "label": "맥주 양조장 투어",
+      "weight": 1,
+      "description": "맥주 제조 과정 보기"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 5,
+    "onePerDay": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-09",
+  "title": "오늘의 취미",
+  "description": "새로운 취미를 찾아보세요!",
+  "category": "entertainment",
+  "appType": "roulette",
+  "tags": ["취미", "활동", "여가", "랜덤"],
+  "theme": {
+    "primary": "#10b981",
+    "background": "#f0fdf4",
+    "accent": "#34d399",
+    "text": "#065f46"
+  },
+  "items": [
+    {
+      "id": "reading",
+      "label": "독서",
+      "weight": 2,
+      "description": "책 읽기"
+    },
+    {
+      "id": "drawing",
+      "label": "그림 그리기",
+      "weight": 2,
+      "description": "예술 활동"
+    },
+    {
+      "id": "music",
+      "label": "악기 연주",
+      "weight": 2,
+      "description": "음악 연습"
+    },
+    {
+      "id": "cooking",
+      "label": "요리",
+      "weight": 3,
+      "description": "맛있는 요리 만들기"
+    },
+    {
+      "id": "gardening",
+      "label": "원예",
+      "weight": 1,
+      "description": "식물 키우기"
+    },
+    {
+      "id": "photography",
+      "label": "사진 촬영",
+      "weight": 2,
+      "description": "예술적 사진"
+    },
+    {
+      "id": "writing",
+      "label": "글쓰기",
+      "weight": 1,
+      "description": "창작 활동"
+    },
+    {
+      "id": "crafting",
+      "label": "공예",
+      "weight": 2,
+      "description": "손으로 만들기"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 3,
+    "onePerDay": false
+  }
+}
+

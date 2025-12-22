@@ -1,0 +1,15 @@
+{
+  "appKey": "calculator-01",
+  "title": "계산기",
+  "description": "간단하고 빠른 계산을 해보세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["계산기", "사칙연산", "기본"],
+  "theme": {
+    "primary": "#10b981",
+    "background": "#f0fdf4",
+    "accent": "#34d399",
+    "text": "#065f46"
+  }
+}
+

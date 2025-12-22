@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-10",
+  "title": "오늘의 게임",
+  "description": "플레이할 게임을 선택해보세요!",
+  "category": "entertainment",
+  "appType": "roulette",
+  "tags": ["게임", "오락", "엔터테인먼트", "랜덤"],
+  "theme": {
+    "primary": "#8b5cf6",
+    "background": "#faf5ff",
+    "accent": "#a78bfa",
+    "text": "#6b21a8"
+  },
+  "items": [
+    {
+      "id": "action",
+      "label": "액션 게임",
+      "weight": 3,
+      "description": "스릴 넘치는 액션"
+    },
+    {
+      "id": "puzzle",
+      "label": "퍼즐 게임",
+      "weight": 2,
+      "description": "두뇌 게임"
+    },
+    {
+      "id": "rpg",
+      "label": "RPG",
+      "weight": 2,
+      "description": "롤플레잉 게임"
+    },
+    {
+      "id": "sports",
+      "label": "스포츠 게임",
+      "weight": 2,
+      "description": "운동 게임"
+    },
+    {
+      "id": "racing",
+      "label": "레이싱",
+      "weight": 2,
+      "description": "자동차 경주"
+    },
+    {
+      "id": "strategy",
+      "label": "전략 게임",
+      "weight": 2,
+      "description": "전략적 사고"
+    },
+    {
+      "id": "simulation",
+      "label": "시뮬레이션",
+      "weight": 1,
+      "description": "현실 시뮬레이션"
+    },
+    {
+      "id": "casual",
+      "label": "캐주얼 게임",
+      "weight": 3,
+      "description": "가볍게 즐기기"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 2,
+    "onePerDay": false
+  }
+}
+

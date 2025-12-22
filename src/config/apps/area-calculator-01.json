@@ -1,0 +1,15 @@
+{
+  "appKey": "area-calculator-01",
+  "title": "평수 계산기",
+  "description": "평방미터와 평을 쉽게 변환하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["평수", "평방미터", "면적", "부동산", "집"],
+  "theme": {
+    "primary": "#8b5cf6",
+    "background": "#faf5ff",
+    "accent": "#a78bfa",
+    "text": "#6b21a8"
+  }
+}
+

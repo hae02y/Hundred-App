@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-12",
+  "title": "오늘의 색깔",
+  "description": "오늘 입을 색깔을 선택해보세요!",
+  "category": "other",
+  "appType": "roulette",
+  "tags": ["색깔", "패션", "스타일", "랜덤"],
+  "theme": {
+    "primary": "#ec4899",
+    "background": "#fdf2f8",
+    "accent": "#f472b6",
+    "text": "#831843"
+  },
+  "items": [
+    {
+      "id": "red",
+      "label": "빨강",
+      "weight": 2,
+      "description": "열정적인 빨강"
+    },
+    {
+      "id": "blue",
+      "label": "파랑",
+      "weight": 2,
+      "description": "차분한 파랑"
+    },
+    {
+      "id": "green",
+      "label": "초록",
+      "weight": 2,
+      "description": "자연스러운 초록"
+    },
+    {
+      "id": "yellow",
+      "label": "노랑",
+      "weight": 2,
+      "description": "밝은 노랑"
+    },
+    {
+      "id": "purple",
+      "label": "보라",
+      "weight": 2,
+      "description": "신비로운 보라"
+    },
+    {
+      "id": "black",
+      "label": "검정",
+      "weight": 3,
+      "description": "클래식한 검정"
+    },
+    {
+      "id": "white",
+      "label": "하양",
+      "weight": 2,
+      "description": "깔끔한 하양"
+    },
+    {
+      "id": "pink",
+      "label": "분홍",
+      "weight": 2,
+      "description": "사랑스러운 분홍"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 1,
+    "onePerDay": false
+  }
+}
+

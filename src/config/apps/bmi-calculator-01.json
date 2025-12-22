@@ -1,0 +1,15 @@
+{
+  "appKey": "bmi-calculator-01",
+  "title": "BMI 계산기",
+  "description": "체질량지수를 계산하고 건강 상태를 확인하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["BMI", "체질량지수", "건강", "다이어트", "몸무게"],
+  "theme": {
+    "primary": "#f59e0b",
+    "background": "#fffbeb",
+    "accent": "#fbbf24",
+    "text": "#92400e"
+  }
+}
+

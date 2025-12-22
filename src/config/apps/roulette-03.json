@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-03",
+  "title": "오늘의 저녁 메뉴",
+  "description": "저녁 메뉴를 랜덤으로 선택해드립니다!",
+  "category": "food",
+  "appType": "roulette",
+  "tags": ["저녁", "메뉴", "음식", "랜덤", "선택"],
+  "theme": {
+    "primary": "#f97316",
+    "background": "#fff7ed",
+    "accent": "#fb923c",
+    "text": "#9a3412"
+  },
+  "items": [
+    {
+      "id": "korean-bbq",
+      "label": "고기",
+      "weight": 3,
+      "description": "삼겹살, 갈비, 불고기 등"
+    },
+    {
+      "id": "seafood",
+      "label": "해산물",
+      "weight": 2,
+      "description": "회, 조개, 새우 등"
+    },
+    {
+      "id": "hotpot",
+      "label": "전골",
+      "weight": 2,
+      "description": "부대찌개, 해물탕 등"
+    },
+    {
+      "id": "noodles",
+      "label": "면류",
+      "weight": 2,
+      "description": "라면, 파스타, 우동 등"
+    },
+    {
+      "id": "pizza",
+      "label": "피자",
+      "weight": 1,
+      "description": "다양한 토핑의 피자"
+    },
+    {
+      "id": "chicken",
+      "label": "치킨",
+      "weight": 3,
+      "description": "양념치킨, 후라이드 등"
+    },
+    {
+      "id": "sushi",
+      "label": "초밥",
+      "weight": 1,
+      "description": "신선한 초밥"
+    },
+    {
+      "id": "steak",
+      "label": "스테이크",
+      "weight": 1,
+      "description": "고급스러운 스테이크"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 3,
+    "onePerDay": false
+  }
+}
+

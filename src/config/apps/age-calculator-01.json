@@ -1,0 +1,15 @@
+{
+  "appKey": "age-calculator-01",
+  "title": "나이 계산기",
+  "description": "생년월일로 정확한 나이를 계산하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["나이", "생년월일", "만나이", "생일"],
+  "theme": {
+    "primary": "#e91e63",
+    "background": "#fce4ec",
+    "accent": "#f48fb1",
+    "text": "#880e4f"
+  }
+}
+

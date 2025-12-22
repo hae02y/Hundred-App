@@ -1,0 +1,15 @@
+{
+  "appKey": "interest-calculator-01",
+  "title": "이자 계산기",
+  "description": "예금 이자를 계산해보세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["이자", "예금", "금리", "투자", "저축"],
+  "theme": {
+    "primary": "#ff9800",
+    "background": "#fff3e0",
+    "accent": "#ffb74d",
+    "text": "#e65100"
+  }
+}
+

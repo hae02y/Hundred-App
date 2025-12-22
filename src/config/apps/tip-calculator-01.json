@@ -1,0 +1,15 @@
+{
+  "appKey": "tip-calculator-01",
+  "title": "팁 계산기",
+  "description": "팁과 1인당 금액을 쉽게 계산하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["팁", "계산", "식당", "외식"],
+  "theme": {
+    "primary": "#f59e0b",
+    "background": "#fffbeb",
+    "accent": "#fbbf24",
+    "text": "#92400e"
+  }
+}
+

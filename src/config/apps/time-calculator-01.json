@@ -1,0 +1,15 @@
+{
+  "appKey": "time-calculator-01",
+  "title": "시간 계산기",
+  "description": "시간을 더하거나 빼서 계산하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["시간", "계산", "더하기", "빼기"],
+  "theme": {
+    "primary": "#06b6d4",
+    "background": "#ecfeff",
+    "accent": "#22d3ee",
+    "text": "#164e63"
+  }
+}
+

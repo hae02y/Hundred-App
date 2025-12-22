@@ -1,0 +1,15 @@
+{
+  "appKey": "unit-converter-01",
+  "title": "단위 변환기",
+  "description": "길이, 무게, 온도를 쉽게 변환하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["단위", "변환", "길이", "무게", "온도"],
+  "theme": {
+    "primary": "#00acc1",
+    "background": "#e0f7fa",
+    "accent": "#4dd0e1",
+    "text": "#006064"
+  }
+}
+

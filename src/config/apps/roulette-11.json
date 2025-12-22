@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-11",
+  "title": "오늘의 책",
+  "description": "읽을 책 장르를 추천해드립니다!",
+  "category": "entertainment",
+  "appType": "roulette",
+  "tags": ["책", "독서", "장르", "랜덤"],
+  "theme": {
+    "primary": "#6366f1",
+    "background": "#eef2ff",
+    "accent": "#818cf8",
+    "text": "#312e81"
+  },
+  "items": [
+    {
+      "id": "fiction",
+      "label": "소설",
+      "weight": 3,
+      "description": "창작 소설"
+    },
+    {
+      "id": "nonfiction",
+      "label": "논픽션",
+      "weight": 2,
+      "description": "실제 이야기"
+    },
+    {
+      "id": "mystery",
+      "label": "추리",
+      "weight": 2,
+      "description": "미스터리 추리"
+    },
+    {
+      "id": "romance",
+      "label": "로맨스",
+      "weight": 2,
+      "description": "로맨스 소설"
+    },
+    {
+      "id": "sci-fi",
+      "label": "SF",
+      "weight": 2,
+      "description": "과학 소설"
+    },
+    {
+      "id": "fantasy",
+      "label": "판타지",
+      "weight": 2,
+      "description": "판타지 소설"
+    },
+    {
+      "id": "self-help",
+      "label": "자기계발",
+      "weight": 2,
+      "description": "성장과 발전"
+    },
+    {
+      "id": "history",
+      "label": "역사",
+      "weight": 1,
+      "description": "역사서"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 3,
+    "onePerDay": false
+  }
+}
+

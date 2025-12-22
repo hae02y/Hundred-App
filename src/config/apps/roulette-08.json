@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-08",
+  "title": "오늘의 간식",
+  "description": "간식 메뉴를 랜덤으로 선택해드립니다!",
+  "category": "food",
+  "appType": "roulette",
+  "tags": ["간식", "디저트", "음식", "랜덤"],
+  "theme": {
+    "primary": "#f59e0b",
+    "background": "#fffbeb",
+    "accent": "#fbbf24",
+    "text": "#92400e"
+  },
+  "items": [
+    {
+      "id": "icecream",
+      "label": "아이스크림",
+      "weight": 3,
+      "description": "시원한 아이스크림"
+    },
+    {
+      "id": "cake",
+      "label": "케이크",
+      "weight": 2,
+      "description": "달콤한 케이크"
+    },
+    {
+      "id": "cookie",
+      "label": "쿠키",
+      "weight": 2,
+      "description": "바삭한 쿠키"
+    },
+    {
+      "id": "chocolate",
+      "label": "초콜릿",
+      "weight": 3,
+      "description": "달콤한 초콜릿"
+    },
+    {
+      "id": "candy",
+      "label": "사탕",
+      "weight": 2,
+      "description": "다양한 사탕"
+    },
+    {
+      "id": "donut",
+      "label": "도넛",
+      "weight": 2,
+      "description": "달콤한 도넛"
+    },
+    {
+      "id": "popcorn",
+      "label": "팝콘",
+      "weight": 1,
+      "description": "바삭한 팝콘"
+    },
+    {
+      "id": "chips",
+      "label": "과자",
+      "weight": 2,
+      "description": "다양한 과자"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 2,
+    "onePerDay": false
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "appKey": "percent-calculator-01",
+  "title": "퍼센트 계산기",
+  "description": "할인율, 세율, 수수료 등을 쉽게 계산하세요!",
+  "category": "utility",
+  "appType": "calculator",
+  "tags": ["퍼센트", "할인", "세율", "수수료", "비율"],
+  "theme": {
+    "primary": "#06b6d4",
+    "background": "#ecfeff",
+    "accent": "#22d3ee",
+    "text": "#164e63"
+  }
+}
+

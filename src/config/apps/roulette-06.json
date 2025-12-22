@@ -1,0 +1,69 @@
+{
+  "appKey": "roulette-06",
+  "title": "오늘의 음악 장르",
+  "description": "들을 음악 장르를 랜덤으로 선택해드립니다!",
+  "category": "entertainment",
+  "appType": "roulette",
+  "tags": ["음악", "장르", "플레이리스트", "랜덤"],
+  "theme": {
+    "primary": "#a855f7",
+    "background": "#faf5ff",
+    "accent": "#c084fc",
+    "text": "#6b21a8"
+  },
+  "items": [
+    {
+      "id": "pop",
+      "label": "팝",
+      "weight": 3,
+      "description": "대중적인 팝 음악"
+    },
+    {
+      "id": "k-pop",
+      "label": "K-POP",
+      "weight": 3,
+      "description": "한국 팝 음악"
+    },
+    {
+      "id": "rock",
+      "label": "록",
+      "weight": 2,
+      "description": "록 음악"
+    },
+    {
+      "id": "jazz",
+      "label": "재즈",
+      "weight": 1,
+      "description": "부드러운 재즈"
+    },
+    {
+      "id": "classical",
+      "label": "클래식",
+      "weight": 1,
+      "description": "고전 음악"
+    },
+    {
+      "id": "hiphop",
+      "label": "힙합",
+      "weight": 2,
+      "description": "힙합 음악"
+    },
+    {
+      "id": "electronic",
+      "label": "일렉트로닉",
+      "weight": 2,
+      "description": "전자 음악"
+    },
+    {
+      "id": "r&b",
+      "label": "R&B",
+      "weight": 2,
+      "description": "리듬 앤 블루스"
+    }
+  ],
+  "rules": {
+    "cooldownSec": 2,
+    "onePerDay": false
+  }
+}
+
