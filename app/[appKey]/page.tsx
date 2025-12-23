@@ -1,5 +1,14 @@
+﻿import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { loadAppConfig } from '@/lib/app-config-loader';
+import {
+  buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
+  buildWebApplicationJsonLd,
+  getAppSeoContent,
+  getCanonicalUrl,
+} from '@/lib/seo';
+import SeoTextSection from '@/components/SeoTextSection';
 import RouletteApp from '@/components/RouletteApp';
 import CalculatorApp from '@/components/CalculatorApp';
 import AreaCalculatorApp from '@/components/AreaCalculatorApp';
@@ -17,19 +26,42 @@ interface PageProps {
   params: Promise<{ appKey: string }>;
 }
 
-export async function generateMetadata({ params }: PageProps) {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { appKey } = await params;
   const config = await loadAppConfig(appKey);
 
   if (!config) {
     return {
-      title: '앱을 찾을 수 없습니다',
+      title: '존재하지 않는 앱',
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
+  const title = config.title;
+  const description = config.description || `${config.title} 앱에서 빠르게 결과를 확인하세요.`;
+  const canonical = getCanonicalUrl(`/${appKey}`);
+
   return {
-    title: `${config.title} - HundredApp`,
-    description: config.description || `${config.title} 앱`,
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: 'website',
+      siteName: 'HundredApp',
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
   };
 }
 
@@ -41,46 +73,53 @@ export default async function AppPage({ params }: PageProps) {
     notFound();
   }
 
-  // 앱 타입과 키에 따라 다른 컴포넌트 렌더링
-  if (config.appType === 'roulette') {
-    return <RouletteApp config={config} />;
-  }
+  const seoContent = getAppSeoContent(config);
+  const canonicalUrl = getCanonicalUrl(`/${appKey}`);
+  const structuredData = [
+    buildWebApplicationJsonLd(config, canonicalUrl),
+    buildBreadcrumbJsonLd(appKey, config.title),
+    ...(seoContent.faqs.length ? [buildFaqJsonLd(seoContent.faqs)] : []),
+  ];
 
-  // 계산기 타입별로 분기
+  let appView: React.ReactNode = <RouletteApp config={config} />;
+
   if (config.appType === 'calculator') {
     if (appKey === 'area-calculator-01') {
-      return <AreaCalculatorApp config={config} />;
+      appView = <AreaCalculatorApp config={config} />;
+    } else if (appKey === 'bmi-calculator-01') {
+      appView = <BMICalculatorApp config={config} />;
+    } else if (appKey === 'percent-calculator-01') {
+      appView = <PercentCalculatorApp config={config} />;
+    } else if (appKey === 'age-calculator-01') {
+      appView = <AgeCalculatorApp config={config} />;
+    } else if (appKey === 'unit-converter-01') {
+      appView = <UnitConverterApp config={config} />;
+    } else if (appKey === 'interest-calculator-01') {
+      appView = <InterestCalculatorApp config={config} />;
+    } else if (appKey === 'discount-calculator-01') {
+      appView = <DiscountCalculatorApp config={config} />;
+    } else if (appKey === 'tip-calculator-01') {
+      appView = <TipCalculatorApp config={config} />;
+    } else if (appKey === 'time-calculator-01') {
+      appView = <TimeCalculatorApp config={config} />;
+    } else if (appKey === 'lotto-generator-01') {
+      appView = <LottoGeneratorApp config={config} />;
+    } else {
+      appView = <CalculatorApp config={config} />;
     }
-    if (appKey === 'bmi-calculator-01') {
-      return <BMICalculatorApp config={config} />;
-    }
-    if (appKey === 'percent-calculator-01') {
-      return <PercentCalculatorApp config={config} />;
-    }
-    if (appKey === 'age-calculator-01') {
-      return <AgeCalculatorApp config={config} />;
-    }
-    if (appKey === 'unit-converter-01') {
-      return <UnitConverterApp config={config} />;
-    }
-    if (appKey === 'interest-calculator-01') {
-      return <InterestCalculatorApp config={config} />;
-    }
-    if (appKey === 'discount-calculator-01') {
-      return <DiscountCalculatorApp config={config} />;
-    }
-    if (appKey === 'tip-calculator-01') {
-      return <TipCalculatorApp config={config} />;
-    }
-    if (appKey === 'time-calculator-01') {
-      return <TimeCalculatorApp config={config} />;
-    }
-    if (appKey === 'lotto-generator-01') {
-      return <LottoGeneratorApp config={config} />;
-    }
-    return <CalculatorApp config={config} />;
   }
 
-  return <RouletteApp config={config} />;
+  return (
+    <>
+      {structuredData.map((data, index) => (
+        <script
+          key={`ld-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+        />
+      ))}
+      {appView}
+      <SeoTextSection title={config.title} content={seoContent} />
+    </>
+  );
 }
-

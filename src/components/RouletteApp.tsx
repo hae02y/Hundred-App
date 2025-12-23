@@ -43,7 +43,7 @@ export default function RouletteApp({ config }: RouletteAppProps) {
       }
 
       const data = await response.json();
-      const selectedItem = config.items?.find(item => item.id === data.itemId);
+      const selectedItem = config?.items?.find(item => item.id === data.itemId);
 
       if (selectedItem) {
         // 서버 응답을 받은 즉시 결과 설정 (애니메이션이 해당 섹션으로 회전)
@@ -115,7 +115,7 @@ export default function RouletteApp({ config }: RouletteAppProps) {
             {/* Roulette Wheel */}
             <div className="mb-8">
               <RouletteWheel
-                items={config.items || []}
+                items={config.items??[]}
                 theme={theme}
                 isSpinning={isSpinning}
                 resultId={result?.id}
