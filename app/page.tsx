@@ -1,15 +1,15 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import { loadAppConfig, getAllAppKeys } from '@/lib/app-config-loader';
 import { getCanonicalUrl } from '@/lib/seo';
 import { AppCategory } from '@/types/app-config';
 import HomePageClient from '@/components/HomePageClient';
 
 const categoryLabels: Record<AppCategory, string> = {
-  food: '🍽️ 음식',
-  date: '💕 데이트',
-  utility: '🛠️ 유틸리티',
-  entertainment: '🎮 엔터테인먼트',
-  other: '📱 기타',
+  food: '음식',
+  date: '데이트',
+  utility: '유틸리티',
+  entertainment: '엔터테인먼트',
+  other: '기타',
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -29,11 +29,20 @@ export async function generateMetadata(): Promise<Metadata> {
       url: canonical,
       type: 'website',
       siteName: 'HundredApp',
+      images: [
+        {
+          url: '/og-default.png',
+          width: 1200,
+          height: 630,
+          alt: 'HundredApp',
+        },
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title,
       description,
+      images: ['/og-default.png'],
     },
   };
 }

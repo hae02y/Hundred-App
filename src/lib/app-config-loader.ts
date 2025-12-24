@@ -22,6 +22,7 @@ import discountCalculator01Config from '@/config/apps/discount-calculator-01.jso
 import tipCalculator01Config from '@/config/apps/tip-calculator-01.json';
 import timeCalculator01Config from '@/config/apps/time-calculator-01.json';
 import lottoGenerator01Config from '@/config/apps/lotto-generator-01.json';
+import psychologyTest01Config from '@/config/apps/psychology-test-01.json';
 
 // 현재는 JSON 파일에서 로드, 추후 API로 교체 가능하도록 레이어 분리
 const configMap: Record<string, AppConfig> = {
@@ -48,6 +49,7 @@ const configMap: Record<string, AppConfig> = {
   'tip-calculator-01': tipCalculator01Config as AppConfig,
   'time-calculator-01': timeCalculator01Config as AppConfig,
   'lotto-generator-01': lottoGenerator01Config as AppConfig,
+  'psychology-test-01': psychologyTest01Config as AppConfig,
 };
 
 /**
@@ -69,4 +71,3 @@ export async function getAllAppKeys(): Promise<string[]> {
   // TODO: 추후 API 호출로 교체
   return Object.keys(configMap);
 }
-

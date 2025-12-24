@@ -1,0 +1,62 @@
+{
+  "appKey": "psychology-test-01",
+  "title": "오늘의 심리 테스트",
+  "description": "간단한 질문으로 오늘의 심리 상태를 확인해보세요!",
+  "category": "entertainment",
+  "appType": "roulette",
+  "tags": ["심리테스트", "성향", "기분", "흥미", "재미"],
+  "theme": {
+    "primary": "#f97316",
+    "background": "#fff7ed",
+    "accent": "#fb923c",
+    "text": "#7c2d12"
+  },
+  "items": [
+    {
+      "id": "calm-focus",
+      "label": "차분하고 집중력이 높은 날",
+      "weight": 3,
+      "description": "생각이 정리되고 계획을 실행하기 좋은 상태입니다."
+    },
+    {
+      "id": "creative-flow",
+      "label": "창의력이 활짝 열린 날",
+      "weight": 3,
+      "description": "새로운 아이디어가 잘 떠오르는 날이에요."
+    },
+    {
+      "id": "rest-needed",
+      "label": "휴식이 필요한 날",
+      "weight": 2,
+      "description": "잠시 쉬면서 에너지를 회복하는 게 좋아요."
+    },
+    {
+      "id": "social-boost",
+      "label": "사람들과 어울리고 싶은 날",
+      "weight": 2,
+      "description": "친구나 동료와 대화를 나누면 기분이 좋아집니다."
+    },
+    {
+      "id": "self-care",
+      "label": "나를 돌보는 날",
+      "weight": 2,
+      "description": "천천히 나에게 집중하며 작은 만족을 찾아보세요."
+    },
+    {
+      "id": "goal-driven",
+      "label": "목표 지향적인 날",
+      "weight": 2,
+      "description": "작은 목표를 세우고 성취감을 느끼기 좋은 날입니다."
+    },
+    {
+      "id": "adventure",
+      "label": "새로운 경험을 찾는 날",
+      "weight": 1,
+      "description": "익숙하지 않은 선택이 특별한 재미를 줄 수 있어요."
+    }
+  ],
+  "rules": {
+    "cooldownSec": 3,
+    "onePerDay": false
+  }
+}

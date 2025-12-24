@@ -31,6 +31,17 @@ export function getCanonicalUrl(pathname: string): string {
 }
 
 export function getAppSeoContent(config: AppConfig): AppSeoContent {
+  const audienceText =
+    config.category === 'food'
+      ? '점심이나 저녁 메뉴를 고민하는 직장인, 학생, 가족에게 유용합니다.'
+      : config.category === 'date'
+        ? '데이트 코스가 필요한 연인과 친구 모임을 준비하는 분들에게 추천합니다.'
+        : config.category === 'utility'
+          ? '일상이나 업무에서 빠른 계산이 필요한 학생과 직장인에게 적합합니다.'
+          : config.category === 'entertainment'
+            ? '가볍게 즐길 콘텐츠를 찾는 분들에게 추천합니다.'
+            : '빠르게 선택하거나 계산이 필요한 모든 분들에게 도움이 됩니다.';
+
   const fallbackSummary =
     config.description ||
     `${config.title}를 빠르게 사용해보고 결과를 확인할 수 있는 페이지입니다.`;
@@ -43,6 +54,10 @@ export function getAppSeoContent(config: AppConfig): AppSeoContent {
     {
       heading: '사용 방법',
       body: '간단한 입력 후 버튼을 누르면 결과를 바로 확인할 수 있습니다. 필요할 때마다 반복해서 사용할 수 있습니다.',
+    },
+    {
+      heading: '추천 대상',
+      body: audienceText,
     },
     {
       heading: '활용 팁',
@@ -123,4 +138,3 @@ export function buildFaqJsonLd(faqs: SeoFaq[]) {
     })),
   };
 }
-
