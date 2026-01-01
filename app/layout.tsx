@@ -42,6 +42,10 @@ export const metadata: Metadata = {
     description: "다양한 룰렛과 계산기 앱을 빠르게 사용할 수 있는 멀티테넌트 서비스입니다.",
     images: ["/og-default.png"],
   },
+
+  other: {
+    "google-adsense-account":"ca-pub-8508714818929173"
+},
 };
 
 export default function RootLayout({
