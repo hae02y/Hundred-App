@@ -17,11 +17,12 @@ export type AppSeoContent = {
 };
 
 const DEFAULT_SITE_URL = 'http://localhost:3000';
+const NEXT_PUBLIC_SITE_URL = 'https://hundred-app.vercel.app';
 
 const seoOverrides: Record<string, Partial<AppSeoContent>> = {};
 
 export function getSiteUrl(): string {
-  const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  const envUrl = NEXT_PUBLIC_SITE_URL;
   if (!envUrl) return DEFAULT_SITE_URL;
   return envUrl.replace(/\/+$/, '');
 }
