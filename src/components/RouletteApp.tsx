@@ -131,7 +131,7 @@ export default function RouletteApp({ config }: RouletteAppProps) {
                 background: `linear-gradient(135deg, ${theme.primary}, ${theme.accent})`,
               }}
             >
-              <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 rounded-2xl bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <span className="relative flex items-center gap-3">
                 {isSpinning ? (
                   <>
@@ -171,4 +171,3 @@ export default function RouletteApp({ config }: RouletteAppProps) {
     </div>
   );
 }
-

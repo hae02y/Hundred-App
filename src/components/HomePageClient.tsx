@@ -58,10 +58,10 @@ export default function HomePageClient({ apps, categoryLabels }: HomePageClientP
       <div className="relative container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <h1 className="text-6xl md:text-7xl font-black mb-4 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent gradient-animate">
-              HundredApp
+            <h1 className="text-6xl md:text-7xl font-black mb-4 text-slate-100 drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)]">
+              오늘의앱!
             </h1>
-            <div className="h-1 w-24 mx-auto bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-full" />
+            <div className="h-1 w-24 mx-auto bg-white/70 rounded-full" />
           </div>
           <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-10 font-medium">
             다양한 앱을 즐겨보세요 ✨
@@ -85,7 +85,7 @@ export default function HomePageClient({ apps, categoryLabels }: HomePageClientP
                   <Link
                     key={key}
                     href={`/${key}`}
-                    className="group relative card-hover"
+                    className="group relative card-hover overflow-hidden rounded-3xl"
                   >
                     {/* 그라데이션 배경 */}
                     <div 

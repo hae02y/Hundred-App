@@ -1,14 +1,8 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
-import { Inter } from "next/font/google";
 import Script from "next/script";
 import { getSiteUrl } from "@/lib/seo";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -55,10 +49,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${inter.variable} antialiased`}>
+      <body className="antialiased dark">
         <Link
           href="/"
-          className="fixed left-4 top-4 z-50 rounded-full bg-white/80 px-4 py-2 text-sm font-semibold text-gray-900 shadow-lg backdrop-blur hover:bg-white"
+          className="fixed left-4 top-4 z-50 rounded-full glass px-4 py-2 text-sm font-semibold text-gray-900 dark:text-gray-100 shadow-lg hover:scale-[1.02] transition-transform"
           aria-label="메인 페이지로 이동"
         >
           홈으로
