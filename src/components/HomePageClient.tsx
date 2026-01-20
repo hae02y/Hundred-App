@@ -52,10 +52,10 @@ export default function HomePageClient({ apps, categoryLabels }: HomePageClientP
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* 애니메이션 배경 */}
-      <div className="fixed inset-0 bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-gray-900 gradient-animate" />
-      <div className="fixed inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMwIDMuMzE0LTIuNjg2IDYtNiA2cy02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiA2IDIuNjg2IDYgNnoiIGZpbGw9InJnYmEoMTQ4LDE2MywxODQsMC4xKSIvPjwvZz48L3N2Zz4=')] opacity-40" />
+      <div className="fixed inset-0 -z-10 pointer-events-none bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-gray-900 gradient-animate" />
+      <div className="fixed inset-0 -z-10 pointer-events-none bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMwIDMuMzE0LTIuNjg2IDYtNiA2cy02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiA2IDIuNjg2IDYgNnoiIGZpbGw9InJnYmEoMTQ4LDE2MywxODQsMC4xKSIvPjwvZz48L3N2Zz4=')] opacity-40" />
       
-      <div className="relative container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
             <h1 className="text-6xl md:text-7xl font-black mb-4 text-slate-100 drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)]">
@@ -192,4 +192,3 @@ export default function HomePageClient({ apps, categoryLabels }: HomePageClientP
     </div>
   );
 }
-
